@@ -1,1 +1,56 @@
 
+.one{
+	background-color:#020d03;
+	opacity: 0.4; /* Значение прозрачности */
+    filter: alpha(Opacity=40);
+	height: 0 auto;
+	width:650px;
+    margin: 0 auto;
+
+}
+
+.two{
+	background-color:#020d03;
+	opacity: 0.4; /* Значение прозрачности */
+    filter: alpha(Opacity=40);
+	height: 0 auto;
+	width:650px;
+    margin: 0 auto;
+
+}
+
+body {
+	text-align:center;
+	background-color: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+
+.menu {
+	color:white;
+	padding: 1px;
+	background-color:#020d03;
+	opacity: 0.4; /* Значение прозрачности */
+    filter: alpha(Opacity=40);
+	margin:0 auto;
+}
+
+
+
+dt {font-weight: bold}
+
+p, h4, h2, h3, li, dt, dd{
+	color:white;
+}
+
+a:hover {
+color:red;
+}
+a {color:white;}
+
+h1,h2 {
+	font-family: 'Merriweather', serif;
+}
